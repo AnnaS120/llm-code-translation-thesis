@@ -1,0 +1,5 @@
+N1 = 10
+N2 = 1
+for a in range(N2,N1):
+  for b in range(N2,N1):
+    print('%sx%s=%s' % (a,b,a*b))

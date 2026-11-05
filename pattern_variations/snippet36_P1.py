@@ -1,0 +1,10 @@
+mount = [71, 80, 14, 94, 17, 78, 82, 51, 77, 55]
+
+for i in range(0, 10):
+    count = int(mount.pop(0))
+    mount.append(count)
+
+mount.sort(reverse = True)
+
+for i in range(0, 3):
+    print(mount[i])

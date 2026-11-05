@@ -1,0 +1,20 @@
+N1 = 10
+N2 = 9
+N3 = 4
+N4 = 1
+N5 = 8
+N6 = 5
+N7 = 2
+N8 = 7
+N9 = 6
+N10 = 3
+for i in range (N4,N1):
+    print(("{}x{}={}".format(i,N4,i*N4)))
+    print(("{}x{}={}".format(i,N7,i*N7)))
+    print(("{}x{}={}".format(i,N10,i*N10)))
+    print(("{}x{}={}".format(i,N3,i*N3)))
+    print(("{}x{}={}".format(i,N6,i*N6)))
+    print(("{}x{}={}".format(i,N9,i*N9)))
+    print(("{}x{}={}".format(i,N8,i*N8)))
+    print(("{}x{}={}".format(i,N5,i*N5)))
+    print(("{}x{}={}".format(i,N2,i*N2)))

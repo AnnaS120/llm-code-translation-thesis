@@ -1,0 +1,14 @@
+N1 = 100
+N2 = 48
+N3 = 64
+N4 = 78
+N5 = 10
+N6 = 27
+N7 = 20
+N8 = 68
+N9 = 1
+N10 = 0
+N11 = 2
+N12 = 6
+data = [N8, N6, N11, N7, N1, N9, N3, N4, N2, N12]
+print(*sorted([int(data.pop(N10)) for _ in [N10]*N5])[:N12:-N9], sep="\n")

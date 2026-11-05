@@ -1,0 +1,10 @@
+for idx in range (1,10):
+    print(("{}x{}={}".format(idx,1,idx*1)))
+    print(("{}x{}={}".format(idx,2,idx*2)))
+    print(("{}x{}={}".format(idx,3,idx*3)))
+    print(("{}x{}={}".format(idx,4,idx*4)))
+    print(("{}x{}={}".format(idx,5,idx*5)))
+    print(("{}x{}={}".format(idx,6,idx*6)))
+    print(("{}x{}={}".format(idx,7,idx*7)))
+    print(("{}x{}={}".format(idx,8,idx*8)))
+    print(("{}x{}={}".format(idx,9,idx*9)))

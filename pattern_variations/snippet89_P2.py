@@ -1,0 +1,10 @@
+for idx in range(1,10):
+    print(f"{idx}x1={idx}")
+    print(f"{idx}x2={idx*2}")
+    print(f"{idx}x3={idx*3}")
+    print(f"{idx}x4={idx*4}")
+    print(f"{idx}x5={idx*5}")
+    print(f"{idx}x6={idx*6}")
+    print(f"{idx}x7={idx*7}")
+    print(f"{idx}x8={idx*8}")
+    print(f"{idx}x9={idx*9}")

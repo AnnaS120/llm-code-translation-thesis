@@ -1,0 +1,1 @@
+print(('\n'.join('{0}x{1}={2}'.format(idx, k, idx * k) for idx in range(1, 10) for k in range(1, 10))))

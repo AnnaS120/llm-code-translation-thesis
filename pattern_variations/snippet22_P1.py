@@ -1,0 +1,15 @@
+data = [46, 35, 80, 53, 99, 95, 63, 94, 5, 76]
+max = [0,0,0]
+for x in range(10):
+    s = int(data.pop(0))
+    if max[0] < s:
+        max[2] = max[1]
+        max[1] = max[0]
+        max[0] = s
+    elif max[1] < s:
+        max[2] = max[1]
+        max[1] = s
+    elif max[2] < s:
+        max[2] = s
+for x in max:
+    print(x)

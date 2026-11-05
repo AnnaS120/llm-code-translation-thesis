@@ -1,0 +1,20 @@
+N1 = 10
+N2 = 9
+N3 = 4
+N4 = 1
+N5 = 8
+N6 = 5
+N7 = 2
+N8 = 7
+N9 = 6
+N10 = 3
+for i in range(N4,N1):
+    print(f"{i}x1={i}")
+    print(f"{i}x2={i*N7}")
+    print(f"{i}x3={i*N10}")
+    print(f"{i}x4={i*N3}")
+    print(f"{i}x5={i*N6}")
+    print(f"{i}x6={i*N9}")
+    print(f"{i}x7={i*N8}")
+    print(f"{i}x8={i*N5}")
+    print(f"{i}x9={i*N2}")
