@@ -1,0 +1,15 @@
+Sure, here is the provided Python code rewritten as a Java method:
+
+```java
+public class MultiplicationTable {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 9; i++) {
+            for (int j = 1; j <= 9; j++) {
+                System.out.printf("%dx%d=%d\n", i, j, i*j);
+            }
+        }
+    }
+}
+```
+
+In Java, the `System.out.printf()` method is used for formatted output as equivalent to the Python `sys.stdout.write()`.
