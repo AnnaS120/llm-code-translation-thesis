@@ -1,0 +1,19 @@
+Here is the equivalent Java code for the given Python function:
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        int x = 1;
+        for (int j = 0; j < 9; j++) {
+            int y = 1;
+            for (int i = 0; i < 9; i++) {
+                System.out.println(x + "x" + y + "=" + x * y);
+                y++;
+            }
+            x++;
+        }
+    }
+}
+```
+
+This Java code will produce the same output as the given Python function.
